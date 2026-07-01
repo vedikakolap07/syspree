@@ -9,7 +9,7 @@ function Footer() {
                 <img
                     className="logo"
                     src="https://syspree.com/wp-content/uploads/2024/04/logosyspree.png"
-                    alt="Syspree Logo"
+                    alt="Syspree Logo" width={100}
                 />
 
                 <div className="socials">

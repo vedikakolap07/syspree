@@ -7,6 +7,8 @@ import Marquee from './marquee.tsx'
 import About from './about.tsx'
 import Testimonial from './Testimonial.tsx'
 import Getintouch from './Getintouch.tsx'
+import Capabilities from './Capabilities.tsx'
+import CTA from './CTA.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -15,6 +17,8 @@ createRoot(document.getElementById('root')!).render(
     <Testimonial/>
     <About/>
     <Getintouch/>
+    <Capabilities/>
+    <CTA/>
     <Footer/>
   </StrictMode>,
 )

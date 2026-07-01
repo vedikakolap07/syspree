@@ -19,6 +19,7 @@
 .fivth-row {
     display: flex;
     flex-direction: column;
+    line-height: 4ch;
 }
 
 .award img{
