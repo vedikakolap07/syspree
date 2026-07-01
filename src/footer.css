@@ -1,0 +1,33 @@
+.footer {
+    display: grid;
+    grid-template-columns: 320px repeat(4, 1fr);
+    gap: 40px;
+    padding: 60px;
+    background: white;
+    color: #8c8b8b;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.second-row,
+.third-row,
+.fourth-row,
+.fivth-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.award img{
+    width: 10px;
+    height: 5px;
+
+}
+.footer hr,
+.footer p {
+    grid-column: 1 / -1;
+    text-align: left;
+}
